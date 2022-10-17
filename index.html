@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>okQR</title>
+</head>
+<body>
+    
+    <div class="container">
+      
+        <input type="text"id="text"
+                placeholder="ENTER TEXT OR GENERATE LINK"class="input"/>
+        <button type="button" id="myButton">
+          Generate QR of current tab 
+        </button>
+        <button type="button" id="btn-2">
+          Generate QR of Text 
+        </button>
+        
+        <div id="qr-image">
+          <span class="error"></span><br />
+          <img src=""id="img">
+          <!-- <button id="whatsapp-link" data-sharer="whatsapp" data-title="Checkout my QR!" data-url="">Share on Whatsapp</button> -->
+          <!-- <a href=""  id="whatsapp-link" data-action="share/whatsapp/share"  
+          target="_blank"> <img src="/logo-whatsapp.png" class= "whatsapp" alt=""> </a>    -->
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sharer.js@latest/sharer.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>

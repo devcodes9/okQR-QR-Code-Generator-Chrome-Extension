@@ -1,0 +1,14 @@
+{
+    "name": "okQR",
+    "version": "1.0.0",
+    "description": "gets you QR",
+    "manifest_version": 3,
+    "author": "Dev Dalia",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "okQR"
+    },
+    "permissions": [
+   "tabs"
+]
+}
